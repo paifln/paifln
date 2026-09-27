@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="172" viewBox="0 0 800 172" role="img" aria-labelledby="title desc">
-<title id="title">Alibi Kabessov</title><desc id="desc">Software developer. Backend, interfaces and educational technology.</desc>
+<title id="title">Alibi Kabessov</title><desc id="desc">Software developer. Products, tools and the systems behind them.</desc>
 <rect width="800" height="172" rx="8" fill="#f4f4f5"/>
 <path d="M32 32h24m-24 0v24M768 140h-24m24 0v-24" fill="none" stroke="#555b65" stroke-width="1.5"/>
-<text x="56" y="56" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#555b65">SOFTWARE / EDUCATION / ENGINEERING</text>
+<text x="56" y="56" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" fill="#555b65">PRODUCTS / TOOLS / ENGINEERING</text>
 <text x="52" y="113" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="1" fill="#18191c">ALIBI KABESSOV</text>
 <path d="m650 73-20 19 20 19m64-38 20 19-20 19m-23-51-17 64" fill="none" stroke="#555b65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M56 139h552" stroke="#d4d4d8"/>

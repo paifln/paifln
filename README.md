@@ -5,11 +5,11 @@
   <img src="assets/wordmark.svg" alt="Alibi Kabessov — Software Developer" width="800">
 </picture>
 
-### I turn teaching problems into working software.
+### I build products, tools and the systems behind them.
 
 **Software Developer · Computer Science Educator**
 
-I build across the stack: Python backends, React interfaces, background workers and Docker deployments. My projects bring programming competitions into the classroom and automate academic document review for a university.
+I take ideas from interface to infrastructure: React applications, Python APIs, background workers and Docker deployments. I build practical tools for real users and explore ideas through personal projects.
 
 [Selected Work](#selected-work) &nbsp; / &nbsp; [Technical Stack](#technical-stack) &nbsp; / &nbsp; [Engineering Approach](#engineering-approach) &nbsp; / &nbsp; [Contact](#contact)
 
@@ -47,7 +47,7 @@ Built for **Makhambet Utemisov West Kazakhstan University** to help review stude
 
 ## Technical Stack
 
-Tools used across my software projects and teaching practice.
+My toolkit for applications, automation and hands-on experimentation.
 
 | Area | Technologies |
 | :--- | :--- |
@@ -68,14 +68,16 @@ Tools used across my software projects and teaching practice.
 
 <img src="assets/icons/code.svg" width="20" height="20" alt=""> **Make complex tools usable.** Teaching computer science informs how I structure interfaces, explain results and build software for people with different technical backgrounds.
 
-**Current interests:** algorithms, backend engineering, system design, developer tools and educational robotics.
+**Current interests:** algorithms, backend engineering, system design, developer tools and robotics.
 
 ## Contact
 
 <img src="assets/icons/briefcase.svg" width="22" height="22" alt=""> **Let's talk about software engineering opportunities.**
 
-Interested in teams building developer tools, education products or workflow automation.
+Open to software engineering roles, product teams and collaboration on useful tools.
+
+<img src="assets/icons/mail.svg" width="20" height="20" alt=""> <a href="mailto:kabessovalibi007@gmail.com">kabessovalibi007@gmail.com</a>
 
 <a href="https://github.com/paifln">GitHub / @paifln <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a>
 
-<!-- TODO: Add a verified recruiting contact: email, LinkedIn or Telegram. -->
+<!-- TODO: Add the exact LinkedIn profile URL for Alibi Kabessov once confirmed. -->
