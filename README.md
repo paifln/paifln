@@ -76,8 +76,10 @@ My toolkit for applications, automation and hands-on experimentation.
 
 Open to software engineering roles, product teams and collaboration on useful tools.
 
-<img src="assets/icons/mail.svg" width="20" height="20" alt=""> <a href="mailto:kabessovalibi007@gmail.com">kabessovalibi007@gmail.com</a>
-
-<a href="https://github.com/paifln">GitHub / @paifln <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a>
-
-<!-- TODO: Add the exact LinkedIn profile URL for Alibi Kabessov once confirmed. -->
+<p>
+  <a href="mailto:kabessovalibi007@gmail.com"><img src="assets/icons/mail.svg" width="20" height="20" alt=""> <strong>Email</strong></a>
+  &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/alibi-kabessov-60b97b43a/"><img src="assets/icons/linkedin.svg" width="20" height="20" alt=""> <strong>LinkedIn</strong></a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/paifln"><img src="assets/icons/code.svg" width="20" height="20" alt=""> <strong>GitHub</strong></a>
+</p>
