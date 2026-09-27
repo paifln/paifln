@@ -1,100 +1,81 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/wordmark-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/wordmark-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.svg">
-  <img src="assets/wordmark.svg" alt="ALIBI KABESSOV" width="520" height="80">
+  <img src="assets/wordmark.svg" alt="Alibi Kabessov — Software Developer" width="800">
 </picture>
 
-**Software Developer / Computer Science Educator**
+### I turn teaching problems into working software.
 
-I build software that helps people teach, learn and practice programming.
-From classroom platforms to document automation and educational robotics.
+**Software Developer · Computer Science Educator**
 
-[Selected Work](#selected-work) &nbsp; / &nbsp; [Stack](#stack) &nbsp; / &nbsp; [About](#about) &nbsp; / &nbsp; [Contact](#contact)
+I build across the stack: Python backends, React interfaces, background workers and Docker deployments. My projects bring programming competitions into the classroom and automate academic document review for a university.
 
-<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
+[Selected Work](#selected-work) &nbsp; / &nbsp; [Technical Stack](#technical-stack) &nbsp; / &nbsp; [Engineering Approach](#engineering-approach) &nbsp; / &nbsp; [Contact](#contact)
 
 ## Selected Work
 
-### 01 &nbsp; CodeArena
+### <img src="assets/icons/code.svg" width="26" height="26" alt=""> &nbsp; CodeArena
 
-**Programming contests, built for the classroom.**
+**From a classroom network to a complete programming contest.**
 
-A self-hosted contest platform for schools and universities. Create problems and test cases, run individual or team competitions, and follow live standings over a local network.
+Built a self-hosted platform where educators create problems, organize individual or team contests, and track live standings. Students write and submit solutions directly in the browser.
 
-Automatic judging with isolated code execution. Student groups and organizer controls. English, Russian and Kazakh interfaces.
+- **Execution engine:** automatic judging in isolated Docker containers, with support for six programming languages.
+- **Contest operations:** scoring, frozen standings and reveal, clarifications, rejudging, and teacher-controlled participation.
+- **Complete product:** React interface with Monaco Editor, role-based access, database migrations, backups, and English, Russian and Kazakh localization.
 
-<sub>Python / FastAPI / React / TypeScript / Docker</sub>
+`Python` `FastAPI` `React` `TypeScript` `SQLite` `SQLAlchemy` `Docker`
 
-<a href="https://github.com/paifln/codeArena">View repository <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a>
-
-<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
-
-### 02 &nbsp; DOCUMENTOR
-
-**A clearer path from draft to reviewed document.**
-
-A Telegram assistant for reviewing academic DOCX files. Checks formatting and structure, analyzes language and content, and delivers PDF reports with actionable recommendations.
-
-Background processing, review history and reports in English, Russian and Kazakh.
-
-<sub>Python / aiogram / PostgreSQL / Redis / Docker</sub>
-
-<a href="https://github.com/paifln/documentor_bot">View repository <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a>
+<a href="https://github.com/paifln/codeArena"><strong>Explore CodeArena</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/codeArena/tree/main/backend/judge">Judging engine</a>
 
 <p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
 
-### 03 &nbsp; TeacherOS
+### <img src="assets/icons/document.svg" width="26" height="26" alt=""> &nbsp; DOCUMENTOR
 
-**A personal operating system for teachers.**
+**Academic document review, developed for a university.**
 
-A workspace for students, groups, lessons and schedules. Brings attendance, payments, income, teaching materials and student progress into one place.
+Built for **Makhambet Utemisov West Kazakhstan University** to help review student papers. A Telegram interface turns a DOCX submission into a structured PDF report covering formatting, document structure, language and academic style.
 
-<!-- TODO: Add the verified TeacherOS repository URL and actual technology stack.
-     Confirm its current development status before displaying a status label. -->
+- **Document processing:** extracts DOCX content, checks formatting against configurable rules, and generates reports with actionable feedback.
+- **AI integration:** combines deterministic checks with AI-assisted analysis; incomplete analysis is explicitly reported.
+- **Asynchronous architecture:** PostgreSQL stores review jobs, Redis queues background work, and delivery retries do not rerun the analysis. Supports English, Russian and Kazakh.
 
-<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
+`Python` `aiogram` `PostgreSQL` `Redis` `ARQ` `python-docx` `ReportLab` `Docker`
 
-### 04 &nbsp; Educational Robotics Platform
+<a href="https://github.com/paifln/documentor_bot"><strong>Explore DOCUMENTOR</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/documentor_bot/blob/main/docs/ARCHITECTURE.md">Architecture</a>
 
-**Connecting code, hardware and learning.**
+## Technical Stack
 
-An educational robotics ecosystem concept built around a custom controller, sensors and motors, with a programming environment and teaching methodology for hands-on projects.
+Tools used across my software projects and teaching practice.
 
-<sub>Arduino / ESP32</sub>
+| Area | Technologies |
+| :--- | :--- |
+| <img src="assets/icons/code.svg" width="20" height="20" alt=""> **Languages** | `Python` `TypeScript` `JavaScript` `Luau` |
+| <img src="assets/icons/window.svg" width="20" height="20" alt=""> **Frontend** | `React` `HTML` `CSS` `Tailwind CSS` `Vite` `TanStack Query` `Zustand` `i18next` `Monaco Editor` |
+| <img src="assets/icons/server.svg" width="20" height="20" alt=""> **Backend** | `FastAPI` `Pydantic` `aiogram` `SQLAlchemy` `Alembic` `ARQ` |
+| <img src="assets/icons/database.svg" width="20" height="20" alt=""> **Data** | `PostgreSQL` `SQLite` `Redis` |
+| <img src="assets/icons/document.svg" width="20" height="20" alt=""> **Documents & AI** | `python-docx` `ReportLab` `lxml` `OpenAI SDK` `HTTPX` |
+| <img src="assets/icons/workflow.svg" width="20" height="20" alt=""> **Delivery** | `Git` `GitHub Actions` `Docker` `Docker Compose` |
+| <img src="assets/icons/check.svg" width="20" height="20" alt=""> **Quality** | `pytest` `Vitest` `Testing Library` `Ruff` `Prettier` |
+| <img src="assets/icons/chip.svg" width="20" height="20" alt=""> **Hardware** | `Arduino` `ESP32` |
 
-<!-- TODO: Add the verified robotics repository URL when available.
-     Confirm its current development status before displaying a status label. -->
+## Engineering Approach
 
-<br>
+<img src="assets/icons/workflow.svg" width="20" height="20" alt=""> **Build the whole workflow.** Connect the interface, API, data model and background processing around the task a user needs to complete.
 
-## Stack
+<img src="assets/icons/check.svg" width="20" height="20" alt=""> **Design for failure and recovery.** Isolate code execution, retry document delivery, preserve review state, and provide backup and recovery paths.
 
-**Languages** &nbsp; Python / TypeScript / JavaScript / Luau
+<img src="assets/icons/code.svg" width="20" height="20" alt=""> **Make complex tools usable.** Teaching computer science informs how I structure interfaces, explain results and build software for people with different technical backgrounds.
 
-**Frontend** &nbsp; React / HTML / CSS
-
-**Backend & tools** &nbsp; FastAPI / PostgreSQL / Redis / Docker / Git / GitHub
-
-**Hardware** &nbsp; Arduino / ESP32
-
-<!-- TODO: Add C++, Roblox Studio or Godot only after confirming personal use.
-     Supported contest languages are not evidence of the author's own stack. -->
-
-<br>
-
-## About
-
-I'm a software developer and computer science educator building tools for teachers and students. My work connects programming education with practical software: running competitions, reviewing documents and organizing teaching.
-
-### Focus
-
-Algorithms / Backend Engineering / System Design<br>
-Developer Tools / Educational Technology / Robotics
-
-<br>
+**Current interests:** algorithms, backend engineering, system design, developer tools and educational robotics.
 
 ## Contact
 
+<img src="assets/icons/briefcase.svg" width="22" height="22" alt=""> **Let's talk about software engineering opportunities.**
+
+Interested in teams building developer tools, education products or workflow automation.
+
 <a href="https://github.com/paifln">GitHub / @paifln <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a>
 
-<!-- TODO: Add your verified LinkedIn URL, Telegram URL and preferred public email.
-     Keep missing contacts out of the visible profile; do not use dummy links. -->
+<!-- TODO: Add a verified recruiting contact: email, LinkedIn or Telegram. -->
