@@ -9,7 +9,7 @@
 
 **Software Developer · Computer Science Educator**
 
-I take ideas from interface to infrastructure: React applications, Python APIs, background workers and Docker deployments. I build practical tools for real users and explore ideas through personal projects.
+I take ideas from interface to infrastructure: React and Next.js applications, Python APIs, background workers, Electron desktop tools and Docker deployments. My projects span education, document workflows, personal music libraries and robotics.
 
 [Selected Work](#selected-work) &nbsp; / &nbsp; [Technical Stack](#technical-stack) &nbsp; / &nbsp; [Engineering Approach](#engineering-approach) &nbsp; / &nbsp; [Contact](#contact)
 
@@ -45,6 +45,58 @@ Built for **Makhambet Utemisov West Kazakhstan University** to help review stude
 
 <a href="https://github.com/paifln/documentor_bot"><strong>Explore DOCUMENTOR</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/documentor_bot/blob/main/docs/ARCHITECTURE.md">Architecture</a>
 
+<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
+
+### <img src="assets/icons/window.svg" width="26" height="26" alt=""> &nbsp; Noctune
+
+**Your own music collection, with a player built around it.**
+
+Built a private web application for uploading, organizing and listening to personal MP3 files, with a responsive desktop and mobile interface.
+
+- **Library management:** multi-file uploads, ID3 metadata and embedded artwork, duplicate detection, search, album and artist grouping, playlists and liked songs.
+- **Playback:** continuous audio across navigation, editable queue, shuffle and repeat, seeking, listening history and Media Session controls.
+- **Private storage:** Supabase authentication, PostgreSQL row-level security, private audio and artwork buckets, signed playback URLs and direct-to-storage uploads.
+
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Supabase` `PostgreSQL` `Vercel`
+
+<a href="https://github.com/paifln/noctune"><strong>Explore Noctune</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/noctune/blob/main/docs/DEPLOY_RU.md">Deployment guide</a>
+
+<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
+
+### <img src="assets/icons/document.svg" width="26" height="26" alt=""> &nbsp; ZiyatAI
+
+**From a teacher's curriculum plan to differentiated classroom assignments.**
+
+Building a workspace for computer science teachers in Kazakhstan: import a calendar and thematic plan (KTP), review extracted lessons, confirm topics and learning objectives, and prepare assignments at three difficulty levels.
+
+- **Teacher-led workflow:** review imported rows, edit assignment versions and export teaching materials as DOCX or PDF. The interface supports Kazakh and Russian, with separate language choices for source documents and assignments.
+- **Document and AI pipeline:** Python document processing and a structured OpenAI provider, with long-running imports, generation and exports handled by a separate worker.
+- **Durable jobs:** PostgreSQL-backed state, private S3-compatible file storage, job leases, heartbeats and recovery of interrupted work.
+
+**Status:** verified locally; public production deployment and live AI validation are pending.
+
+`Next.js` `React` `TypeScript` `Python` `PostgreSQL` `S3` `OpenAI SDK` `Docker`
+
+<a href="https://github.com/paifln/ziyatai"><strong>Explore ZiyatAI</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/ziyatai/blob/main/docs/adr/001_architecture.md">Architecture</a>
+
+<p><img src="assets/divider.svg" width="100%" height="1" alt=""></p>
+
+### <img src="assets/icons/chip.svg" width="26" height="26" alt=""> &nbsp; JECTIVE Robotics Studio
+
+**A desktop workspace for learning robotics through lessons, code and simulation.**
+
+Developing a Windows application within the <a href="https://www.jective.kz/">JECTIVE</a> educational ecosystem, connecting interactive learning with Blockly programming, generated Arduino C++ and robot behavior scenarios.
+
+- **Learning and creation:** interactive lessons, local narration, a Monaco code editor, multi-file projects, version history and recovery. Lessons, editing and simulation work without the online assistant.
+- **Robotics workflow:** reproducible simulation scenarios and separate Arduino CLI compilation/upload tools. The simulator models robot behavior rather than executing arbitrary Arduino C++.
+- **Application architecture:** React inside Electron, validated IPC contracts and separate domain services for files, simulation and hardware. An optional server-hosted AI assistant keeps the provider key off student devices.
+
+**Status:** active development; full product acceptance and integration with the planned physical JECTIVE kit are pending.
+
+`Electron` `React` `TypeScript` `Blockly` `Monaco Editor` `Arduino CLI` `ESP32`
+
+<a href="https://github.com/paifln/jective_robotics"><strong>Explore JECTIVE Robotics Studio</strong> <img src="assets/icons/arrow-up-right.svg" width="16" height="16" alt=""></a> &nbsp; / &nbsp; <a href="https://github.com/paifln/jective_robotics/blob/main/docs/ARCHITECTURE.md">Architecture</a>
+
 ## Technical Stack
 
 My toolkit for applications, automation and hands-on experimentation.
@@ -52,12 +104,13 @@ My toolkit for applications, automation and hands-on experimentation.
 | Area | Technologies |
 | :--- | :--- |
 | <img src="assets/icons/code.svg" width="20" height="20" alt=""> **Languages** | `Python` `TypeScript` `JavaScript` `Luau` |
-| <img src="assets/icons/window.svg" width="20" height="20" alt=""> **Frontend** | `React` `HTML` `CSS` `Tailwind CSS` `Vite` `TanStack Query` `Zustand` `i18next` `Monaco Editor` |
+| <img src="assets/icons/window.svg" width="20" height="20" alt=""> **Frontend** | `React` `Next.js` `HTML` `CSS` `Tailwind CSS` `Vite` `TanStack Query` `Zustand` `i18next` `Monaco Editor` |
+| <img src="assets/icons/chip.svg" width="20" height="20" alt=""> **Desktop & Robotics** | `Electron` `Blockly` `Arduino CLI` `SerialPort` |
 | <img src="assets/icons/server.svg" width="20" height="20" alt=""> **Backend** | `FastAPI` `Pydantic` `aiogram` `SQLAlchemy` `Alembic` `ARQ` |
-| <img src="assets/icons/database.svg" width="20" height="20" alt=""> **Data** | `PostgreSQL` `SQLite` `Redis` |
+| <img src="assets/icons/database.svg" width="20" height="20" alt=""> **Data** | `PostgreSQL` `SQLite` `Redis` `Supabase` `S3` |
 | <img src="assets/icons/document.svg" width="20" height="20" alt=""> **Documents & AI** | `python-docx` `ReportLab` `lxml` `OpenAI SDK` `HTTPX` |
-| <img src="assets/icons/workflow.svg" width="20" height="20" alt=""> **Delivery** | `Git` `GitHub Actions` `Docker` `Docker Compose` |
-| <img src="assets/icons/check.svg" width="20" height="20" alt=""> **Quality** | `pytest` `Vitest` `Testing Library` `Ruff` `Prettier` |
+| <img src="assets/icons/workflow.svg" width="20" height="20" alt=""> **Delivery** | `Git` `GitHub Actions` `Docker` `Docker Compose` `Vercel` |
+| <img src="assets/icons/check.svg" width="20" height="20" alt=""> **Quality** | `pytest` `Vitest` `Playwright` `Testing Library` `Ruff` `ESLint` `Prettier` |
 | <img src="assets/icons/chip.svg" width="20" height="20" alt=""> **Hardware** | `Arduino` `ESP32` |
 
 ## Engineering Approach
