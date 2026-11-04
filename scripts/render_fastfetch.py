@@ -2,11 +2,10 @@
 
 from html import escape
 from pathlib import Path
+from base64 import b64encode
 
 ROOT = Path(__file__).resolve().parents[1]
-art = (ROOT / "assets/ascii-art.txt").read_text(encoding="utf-8-sig").splitlines()
-while art and not art[-1].strip():
-    art.pop()
+portrait = b64encode((ROOT / "assets/ascii-art.png").read_bytes()).decode("ascii")
 
 BG = "#0d1117"
 FG = "#c9d8eb"
@@ -57,8 +56,7 @@ parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" v
   <rect x="12" y="88" width="1096" height="548" rx="10" fill="#151b23"/>
   <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" style="white-space:pre" xml:space="preserve">''']
 
-for i, line in enumerate(art):
-    parts.append(f'<text x="24" y="{116 + i * 17}" font-size="13" textLength="{len(line) * 7.5}" lengthAdjust="spacingAndGlyphs" fill="{BLUE}">{escape(line)}</text>')
+parts.append(f'<image x="24" y="104" width="490" height="518" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{portrait}"/>')
 
 for i, (key, value) in enumerate(rows):
     y = 116 + i * 17
@@ -78,3 +76,13 @@ for i, color in enumerate(["#242d3a", "#ed8796", GREEN, YELLOW, BLUE, "#c6a0f6",
     parts.append(f'<rect x="{536 + i * 25}" y="608" width="25" height="14" fill="{color}"/>')
 parts.append('</g></svg>')
 (ROOT / "assets/fastfetch.svg").write_text("\n".join(parts) + "\n", encoding="utf-8")
+
+# A standalone PNG also displays consistently through GitHub's image proxy.
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(channel="msedge", headless=True)
+    page = browser.new_page(viewport={"width": 1120, "height": 650}, device_scale_factor=2)
+    page.goto((ROOT / "assets/fastfetch.svg").as_uri())
+    page.locator("svg").screenshot(path=str(ROOT / "assets/fastfetch.png"))
+    browser.close()
