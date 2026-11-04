@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/fastfetch.png" width="1240" alt="Alibi Kabessov (@paifln) — Software Developer and Computer Science Educator. Fastfetch-style terminal with an ASCII portrait, technical stack, projects and contacts.">
+  <img src="assets/fastfetch.png" width="1600" alt="Alibi Kabessov (@paifln) — Software Developer and Computer Science Educator. Fastfetch-style terminal with an ASCII portrait, technical stack, projects and contacts.">
 </p>
 
 <p align="center">

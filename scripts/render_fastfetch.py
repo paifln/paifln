@@ -44,22 +44,22 @@ rows = [
     ("Status", "Open to roles & collaboration"),
 ]
 
-parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="875" viewBox="0 0 1600 875" role="img" aria-labelledby="title desc">
   <title id="title">paifln — Alibi Kabessov · fastfetch</title>
   <desc id="desc">Terminal profile with supplied ASCII portrait on the left and software development stack, projects and contacts on the right. Full links are available in the README.</desc>
-  <rect x="1" y="1" width="1118" height="648" rx="12" fill="{BG}" stroke="#303d4b"/>
+  <rect x="1" y="1" width="1598" height="873" rx="12" fill="{BG}" stroke="#303d4b"/>
   <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="{FG}">
     <text x="30" y="35" fill="{BLUE}">paifln<tspan fill="{FG}"> / </tspan><tspan fill="{YELLOW}">README.md</tspan></text>
-    <text x="1090" y="35" text-anchor="end" fill="{MUTED}">bash</text>
+    <text x="1570" y="35" text-anchor="end" fill="{MUTED}">bash</text>
     <text x="30" y="68" fill="{GREEN}">paifln@github<tspan fill="{FG}">:~$ fastfetch</tspan></text>
   </g>
-  <rect x="12" y="88" width="1096" height="548" rx="10" fill="#151b23"/>
-  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" style="white-space:pre" xml:space="preserve">''']
+  <rect x="12" y="88" width="1576" height="775" rx="10" fill="#151b23"/>
+  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="18" style="white-space:pre" xml:space="preserve">''']
 
-parts.append(f'<image x="24" y="104" width="490" height="518" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{portrait}"/>')
+parts.append(f'<image x="24" y="104" width="740" height="747" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{portrait}"/>')
 
 for i, (key, value) in enumerate(rows):
-    y = 116 + i * 17
+    y = 128 + i * 24
     if not key:
         continue
     if key == "title":
@@ -70,10 +70,10 @@ for i, (key, value) in enumerate(rows):
     else:
         dots = "." * max(2, 15 - len(key))
         content = f'<tspan fill="{YELLOW}">{key}</tspan><tspan fill="{MUTED}"> {dots} </tspan><tspan fill="{GREEN if key == "Status" else FG}">{escape(value)}</tspan>'
-    parts.append(f'<text x="536" y="{y}">{content}</text>')
+    parts.append(f'<text x="800" y="{y}">{content}</text>')
 
 for i, color in enumerate(["#242d3a", "#ed8796", GREEN, YELLOW, BLUE, "#c6a0f6", "#8bd5ca", FG]):
-    parts.append(f'<rect x="{536 + i * 25}" y="608" width="25" height="14" fill="{color}"/>')
+    parts.append(f'<rect x="{800 + i * 25}" y="824" width="25" height="14" fill="{color}"/>')
 parts.append('</g></svg>')
 (ROOT / "assets/fastfetch.svg").write_text("\n".join(parts) + "\n", encoding="utf-8")
 
@@ -82,7 +82,7 @@ from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
     browser = p.chromium.launch(channel="msedge", headless=True)
-    page = browser.new_page(viewport={"width": 1120, "height": 650}, device_scale_factor=2)
+    page = browser.new_page(viewport={"width": 1600, "height": 875}, device_scale_factor=1)
     page.goto((ROOT / "assets/fastfetch.svg").as_uri())
     page.locator("svg").screenshot(path=str(ROOT / "assets/fastfetch.png"))
     browser.close()
