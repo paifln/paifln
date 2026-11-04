@@ -45,36 +45,36 @@ rows = [
     ("Status", "Open to roles & collaboration"),
 ]
 
-parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="644" viewBox="0 0 1240 644" role="img" aria-labelledby="title desc">
+parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
   <title id="title">paifln — Alibi Kabessov · fastfetch</title>
   <desc id="desc">Terminal profile with supplied ASCII portrait on the left and software development stack, projects and contacts on the right. Full links are available in the README.</desc>
-  <rect x="1" y="1" width="1238" height="642" rx="12" fill="{BG}" stroke="#303d4b"/>
-  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="{FG}">
+  <rect x="1" y="1" width="1118" height="648" rx="12" fill="{BG}" stroke="#303d4b"/>
+  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="{FG}">
     <text x="30" y="35" fill="{BLUE}">paifln<tspan fill="{FG}"> / </tspan><tspan fill="{YELLOW}">README.md</tspan></text>
-    <text x="1210" y="35" text-anchor="end" fill="{MUTED}">bash</text>
+    <text x="1090" y="35" text-anchor="end" fill="{MUTED}">bash</text>
     <text x="30" y="68" fill="{GREEN}">paifln@github<tspan fill="{FG}">:~$ fastfetch</tspan></text>
   </g>
-  <rect x="20" y="88" width="1200" height="512" rx="10" fill="#151b23"/>
-  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" xml:space="preserve">''']
+  <rect x="12" y="88" width="1096" height="548" rx="10" fill="#151b23"/>
+  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" style="white-space:pre" xml:space="preserve">''']
 
 for i, line in enumerate(art):
-    parts.append(f'<text x="38" y="{114 + i * 16}" fill="{BLUE}">{escape(line)}</text>')
+    parts.append(f'<text x="24" y="{116 + i * 17}" font-size="13" textLength="{len(line) * 7.5}" lengthAdjust="spacingAndGlyphs" fill="{BLUE}">{escape(line)}</text>')
 
 for i, (key, value) in enumerate(rows):
-    y = 114 + i * 16
+    y = 116 + i * 17
     if not key:
         continue
     if key == "title":
         content = f'<tspan fill="{BLUE}">{value}</tspan>'
     elif key in ("rule", "section"):
-        label = "─" * 76 if key == "rule" else f'─ {value} ' + "─" * (73 - len(value))
+        label = "─" * 65 if key == "rule" else f'─ {value} ' + "─" * (62 - len(value))
         content = f'<tspan fill="{MUTED}">{label}</tspan>'
     else:
         dots = "." * max(2, 15 - len(key))
         content = f'<tspan fill="{YELLOW}">{key}</tspan><tspan fill="{MUTED}"> {dots} </tspan><tspan fill="{GREEN if key == "Status" else FG}">{escape(value)}</tspan>'
-    parts.append(f'<text x="534" y="{y}">{content}</text>')
+    parts.append(f'<text x="536" y="{y}">{content}</text>')
 
 for i, color in enumerate(["#242d3a", "#ed8796", GREEN, YELLOW, BLUE, "#c6a0f6", "#8bd5ca", FG]):
-    parts.append(f'<rect x="{534 + i * 25}" y="570" width="25" height="14" fill="{color}"/>')
-parts.append(f'</g><text x="30" y="625" font-family="Consolas, monospace" font-size="12" fill="{MUTED}">Build useful things. Make complex tools usable.</text></svg>')
+    parts.append(f'<rect x="{536 + i * 25}" y="608" width="25" height="14" fill="{color}"/>')
+parts.append('</g></svg>')
 (ROOT / "assets/fastfetch.svg").write_text("\n".join(parts) + "\n", encoding="utf-8")

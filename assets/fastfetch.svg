@@ -1,73 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="644" viewBox="0 0 1240 644" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
   <title id="title">paifln — Alibi Kabessov · fastfetch</title>
   <desc id="desc">Terminal profile with supplied ASCII portrait on the left and software development stack, projects and contacts on the right. Full links are available in the README.</desc>
-  <rect x="1" y="1" width="1238" height="642" rx="12" fill="#0d1117" stroke="#303d4b"/>
-  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d8eb">
+  <rect x="1" y="1" width="1118" height="648" rx="12" fill="#0d1117" stroke="#303d4b"/>
+  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#c9d8eb">
     <text x="30" y="35" fill="#89b4fa">paifln<tspan fill="#c9d8eb"> / </tspan><tspan fill="#f9c873">README.md</tspan></text>
-    <text x="1210" y="35" text-anchor="end" fill="#56677d">bash</text>
+    <text x="1090" y="35" text-anchor="end" fill="#56677d">bash</text>
     <text x="30" y="68" fill="#a6da95">paifln@github<tspan fill="#c9d8eb">:~$ fastfetch</tspan></text>
   </g>
-  <rect x="20" y="88" width="1200" height="512" rx="10" fill="#151b23"/>
-  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" xml:space="preserve">
-<text x="38" y="114" fill="#89b4fa">.............................::..............:::................</text>
-<text x="38" y="130" fill="#89b4fa">.....:......................::..............:::.................</text>
-<text x="38" y="146" fill="#89b4fa">.................... :*=====-.-:...........::..:..........::::::</text>
-<text x="38" y="162" fill="#89b4fa">................. :-:=::::.... ...   .....::..:..:::::::::::::::</text>
-<text x="38" y="178" fill="#89b4fa">............... ==-- -=======- .  ..  ...::..:.........:::.....:</text>
-<text x="38" y="194" fill="#89b4fa">::::...........=-:-=-.-==+==-- .....    ::..:...................</text>
-<text x="38" y="210" fill="#89b4fa">:::::::...::::.:-===--.-===--: .......   :......................</text>
-<text x="38" y="226" fill="#89b4fa">:::::::::::: ---.==+==-.----:. .......   .......................</text>
-<text x="38" y="242" fill="#89b4fa">::..:..::::.==- :.===-:..  ... ..        .:.....................</text>
-<text x="38" y="258" fill="#89b4fa">:...........-:   .:-.--....... ....      :......................</text>
-<text x="38" y="274" fill="#89b4fa">........... .-      ..... ... .          .......................</text>
-<text x="38" y="290" fill="#89b4fa">........... .   -%#.  .......            ....................:::</text>
-<text x="38" y="306" fill="#89b4fa">........... .-   *%#+. ... .         :  ...:.............:::::::</text>
-<text x="38" y="322" fill="#89b4fa">...........  :-:   -=-:           :-:   ..::.....::::::::::::::.</text>
-<text x="38" y="338" fill="#89b4fa">............ .::. .              .-:   ..::.........::.:........</text>
-<text x="38" y="354" fill="#89b4fa">............  ===-.:-:.---...          ..:......................</text>
-<text x="38" y="370" fill="#89b4fa">....:::.....  .:=--..-=--:...         ..........................</text>
-<text x="38" y="386" fill="#89b4fa">:::::::::::::.... ===-:==.-=..       ...........................</text>
-<text x="38" y="402" fill="#89b4fa">:::::::::::.  .  ..-==-  .:        ...:.........................</text>
-<text x="38" y="418" fill="#89b4fa">:......... -: =:    .:::=...      ....................:::.::::::</text>
-<text x="38" y="434" fill="#89b4fa">........ .-:. --:       ...    ................::::::::::..:::::</text>
-<text x="38" y="450" fill="#89b4fa">..        ...  --:.           ..................................</text>
-<text x="38" y="466" fill="#89b4fa">:--..:---:.: --..-..         .... ..................... ........</text>
-<text x="38" y="482" fill="#89b4fa">=-::..  .:=-=::-.:....     . ... ......  .......................</text>
-<text x="38" y="498" fill="#89b4fa">   ::.--.   .=*-. ........ .  ..... ..  ........:...............</text>
-<text x="38" y="514" fill="#89b4fa">:.    .:-:.. .:+-::. ...... .   .. ..   ........................</text>
-<text x="38" y="530" fill="#89b4fa">  .==-.. .-....-==:--              .    ..... ..................</text>
-<text x="38" y="546" fill="#89b4fa">:===---... ..   .::=+---.              ..... ...  ..............</text>
-<text x="38" y="562" fill="#89b4fa">:..:::..........-:                    .......... ........ .... .</text>
-<text x="534" y="114"><tspan fill="#89b4fa">paifln@github</tspan></text>
-<text x="534" y="130"><tspan fill="#56677d">────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="534" y="146"><tspan fill="#f9c873">Name</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Alibi Kabessov</tspan></text>
-<text x="534" y="162"><tspan fill="#f9c873">Role</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Software Developer</tspan></text>
-<text x="534" y="178"><tspan fill="#f9c873">Also</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Computer Science Educator</tspan></text>
-<text x="534" y="194"><tspan fill="#f9c873">Focus</tspan><tspan fill="#56677d"> .......... </tspan><tspan fill="#c9d8eb">Products, tools &amp; systems</tspan></text>
-<text x="534" y="226"><tspan fill="#56677d">─ Stack ────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="534" y="242"><tspan fill="#f9c873">Languages</tspan><tspan fill="#56677d"> ...... </tspan><tspan fill="#c9d8eb">Python, TypeScript, JavaScript, Luau</tspan></text>
-<text x="534" y="258"><tspan fill="#f9c873">Frontend</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">React, Next.js, Tailwind CSS</tspan></text>
-<text x="534" y="274"><tspan fill="#f9c873">Backend</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">FastAPI, aiogram, SQLAlchemy</tspan></text>
-<text x="534" y="290"><tspan fill="#f9c873">Data</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">PostgreSQL, SQLite, Redis, S3</tspan></text>
-<text x="534" y="306"><tspan fill="#f9c873">Desktop</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Electron, Blockly, Arduino</tspan></text>
-<text x="534" y="322"><tspan fill="#f9c873">Delivery</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">Docker, GitHub Actions, Vercel</tspan></text>
-<text x="534" y="354"><tspan fill="#56677d">─ Projects ─────────────────────────────────────────────────────────────────</tspan></text>
-<text x="534" y="370"><tspan fill="#f9c873">CodeArena</tspan><tspan fill="#56677d"> ...... </tspan><tspan fill="#c9d8eb">Self-hosted programming contests</tspan></text>
-<text x="534" y="386"><tspan fill="#f9c873">DOCUMENTOR</tspan><tspan fill="#56677d"> ..... </tspan><tspan fill="#c9d8eb">Academic document review</tspan></text>
-<text x="534" y="402"><tspan fill="#f9c873">Noctune</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Personal music library &amp; player</tspan></text>
-<text x="534" y="418"><tspan fill="#f9c873">ZiyatAI</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Teaching workspace [in development]</tspan></text>
-<text x="534" y="434"><tspan fill="#f9c873">JECTIVE</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Robotics studio [in development]</tspan></text>
-<text x="534" y="466"><tspan fill="#56677d">─ Contact ──────────────────────────────────────────────────────────────────</tspan></text>
-<text x="534" y="482"><tspan fill="#f9c873">Email</tspan><tspan fill="#56677d"> .......... </tspan><tspan fill="#c9d8eb">kabessovalibi007@gmail.com</tspan></text>
-<text x="534" y="498"><tspan fill="#f9c873">GitHub</tspan><tspan fill="#56677d"> ......... </tspan><tspan fill="#c9d8eb">github.com/paifln</tspan></text>
-<text x="534" y="514"><tspan fill="#f9c873">LinkedIn</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">alibi-kabessov-60b97b43a</tspan></text>
-<text x="534" y="546"><tspan fill="#f9c873">Status</tspan><tspan fill="#56677d"> ......... </tspan><tspan fill="#a6da95">Open to roles &amp; collaboration</tspan></text>
-<rect x="534" y="570" width="25" height="14" fill="#242d3a"/>
-<rect x="559" y="570" width="25" height="14" fill="#ed8796"/>
-<rect x="584" y="570" width="25" height="14" fill="#a6da95"/>
-<rect x="609" y="570" width="25" height="14" fill="#f9c873"/>
-<rect x="634" y="570" width="25" height="14" fill="#89b4fa"/>
-<rect x="659" y="570" width="25" height="14" fill="#c6a0f6"/>
-<rect x="684" y="570" width="25" height="14" fill="#8bd5ca"/>
-<rect x="709" y="570" width="25" height="14" fill="#c9d8eb"/>
-</g><text x="30" y="625" font-family="Consolas, monospace" font-size="12" fill="#56677d">Build useful things. Make complex tools usable.</text></svg>
+  <rect x="12" y="88" width="1096" height="548" rx="10" fill="#151b23"/>
+  <g font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" style="white-space:pre" xml:space="preserve">
+<text x="24" y="116" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">.............................::..............:::................</text>
+<text x="24" y="133" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">.....:......................::..............:::.................</text>
+<text x="24" y="150" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">.................... :*=====-.-:...........::..:..........::::::</text>
+<text x="24" y="167" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">................. :-:=::::.... ...   .....::..:..:::::::::::::::</text>
+<text x="24" y="184" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">............... ==-- -=======- .  ..  ...::..:.........:::.....:</text>
+<text x="24" y="201" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">::::...........=-:-=-.-==+==-- .....    ::..:...................</text>
+<text x="24" y="218" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:::::::...::::.:-===--.-===--: .......   :......................</text>
+<text x="24" y="235" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:::::::::::: ---.==+==-.----:. .......   .......................</text>
+<text x="24" y="252" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">::..:..::::.==- :.===-:..  ... ..        .:.....................</text>
+<text x="24" y="269" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:...........-:   .:-.--....... ....      :......................</text>
+<text x="24" y="286" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">........... .-      ..... ... .          .......................</text>
+<text x="24" y="303" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">........... .   -%#.  .......            ....................:::</text>
+<text x="24" y="320" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">........... .-   *%#+. ... .         :  ...:.............:::::::</text>
+<text x="24" y="337" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">...........  :-:   -=-:           :-:   ..::.....::::::::::::::.</text>
+<text x="24" y="354" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">............ .::. .              .-:   ..::.........::.:........</text>
+<text x="24" y="371" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">............  ===-.:-:.---...          ..:......................</text>
+<text x="24" y="388" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">....:::.....  .:=--..-=--:...         ..........................</text>
+<text x="24" y="405" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:::::::::::::.... ===-:==.-=..       ...........................</text>
+<text x="24" y="422" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:::::::::::.  .  ..-==-  .:        ...:.........................</text>
+<text x="24" y="439" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:......... -: =:    .:::=...      ....................:::.::::::</text>
+<text x="24" y="456" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">........ .-:. --:       ...    ................::::::::::..:::::</text>
+<text x="24" y="473" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">..        ...  --:.           ..................................</text>
+<text x="24" y="490" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:--..:---:.: --..-..         .... ..................... ........</text>
+<text x="24" y="507" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">=-::..  .:=-=::-.:....     . ... ......  .......................</text>
+<text x="24" y="524" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">   ::.--.   .=*-. ........ .  ..... ..  ........:...............</text>
+<text x="24" y="541" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:.    .:-:.. .:+-::. ...... .   .. ..   ........................</text>
+<text x="24" y="558" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">  .==-.. .-....-==:--              .    ..... ..................</text>
+<text x="24" y="575" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:===---... ..   .::=+---.              ..... ...  ..............</text>
+<text x="24" y="592" font-size="13" textLength="480.0" lengthAdjust="spacingAndGlyphs" fill="#89b4fa">:..:::..........-:                    .......... ........ .... .</text>
+<text x="536" y="116"><tspan fill="#89b4fa">paifln@github</tspan></text>
+<text x="536" y="133"><tspan fill="#56677d">─────────────────────────────────────────────────────────────────</tspan></text>
+<text x="536" y="150"><tspan fill="#f9c873">Name</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Alibi Kabessov</tspan></text>
+<text x="536" y="167"><tspan fill="#f9c873">Role</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Software Developer</tspan></text>
+<text x="536" y="184"><tspan fill="#f9c873">Also</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">Computer Science Educator</tspan></text>
+<text x="536" y="201"><tspan fill="#f9c873">Focus</tspan><tspan fill="#56677d"> .......... </tspan><tspan fill="#c9d8eb">Products, tools &amp; systems</tspan></text>
+<text x="536" y="235"><tspan fill="#56677d">─ Stack ─────────────────────────────────────────────────────────</tspan></text>
+<text x="536" y="252"><tspan fill="#f9c873">Languages</tspan><tspan fill="#56677d"> ...... </tspan><tspan fill="#c9d8eb">Python, TypeScript, JavaScript, Luau</tspan></text>
+<text x="536" y="269"><tspan fill="#f9c873">Frontend</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">React, Next.js, Tailwind CSS</tspan></text>
+<text x="536" y="286"><tspan fill="#f9c873">Backend</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">FastAPI, aiogram, SQLAlchemy</tspan></text>
+<text x="536" y="303"><tspan fill="#f9c873">Data</tspan><tspan fill="#56677d"> ........... </tspan><tspan fill="#c9d8eb">PostgreSQL, SQLite, Redis, S3</tspan></text>
+<text x="536" y="320"><tspan fill="#f9c873">Desktop</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Electron, Blockly, Arduino</tspan></text>
+<text x="536" y="337"><tspan fill="#f9c873">Delivery</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">Docker, GitHub Actions, Vercel</tspan></text>
+<text x="536" y="371"><tspan fill="#56677d">─ Projects ──────────────────────────────────────────────────────</tspan></text>
+<text x="536" y="388"><tspan fill="#f9c873">CodeArena</tspan><tspan fill="#56677d"> ...... </tspan><tspan fill="#c9d8eb">Self-hosted programming contests</tspan></text>
+<text x="536" y="405"><tspan fill="#f9c873">DOCUMENTOR</tspan><tspan fill="#56677d"> ..... </tspan><tspan fill="#c9d8eb">Academic document review</tspan></text>
+<text x="536" y="422"><tspan fill="#f9c873">Noctune</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Personal music library &amp; player</tspan></text>
+<text x="536" y="439"><tspan fill="#f9c873">ZiyatAI</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Teaching workspace [in development]</tspan></text>
+<text x="536" y="456"><tspan fill="#f9c873">JECTIVE</tspan><tspan fill="#56677d"> ........ </tspan><tspan fill="#c9d8eb">Robotics studio [in development]</tspan></text>
+<text x="536" y="490"><tspan fill="#56677d">─ Contact ───────────────────────────────────────────────────────</tspan></text>
+<text x="536" y="507"><tspan fill="#f9c873">Email</tspan><tspan fill="#56677d"> .......... </tspan><tspan fill="#c9d8eb">kabessovalibi007@gmail.com</tspan></text>
+<text x="536" y="524"><tspan fill="#f9c873">GitHub</tspan><tspan fill="#56677d"> ......... </tspan><tspan fill="#c9d8eb">github.com/paifln</tspan></text>
+<text x="536" y="541"><tspan fill="#f9c873">LinkedIn</tspan><tspan fill="#56677d"> ....... </tspan><tspan fill="#c9d8eb">alibi-kabessov-60b97b43a</tspan></text>
+<text x="536" y="575"><tspan fill="#f9c873">Status</tspan><tspan fill="#56677d"> ......... </tspan><tspan fill="#a6da95">Open to roles &amp; collaboration</tspan></text>
+<rect x="536" y="608" width="25" height="14" fill="#242d3a"/>
+<rect x="561" y="608" width="25" height="14" fill="#ed8796"/>
+<rect x="586" y="608" width="25" height="14" fill="#a6da95"/>
+<rect x="611" y="608" width="25" height="14" fill="#f9c873"/>
+<rect x="636" y="608" width="25" height="14" fill="#89b4fa"/>
+<rect x="661" y="608" width="25" height="14" fill="#c6a0f6"/>
+<rect x="686" y="608" width="25" height="14" fill="#8bd5ca"/>
+<rect x="711" y="608" width="25" height="14" fill="#c9d8eb"/>
+</g></svg>
